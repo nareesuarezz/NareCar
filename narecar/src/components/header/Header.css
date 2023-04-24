@@ -1,17 +1,40 @@
-ul{
+.header {
+    background-color: bisque;
+
+}
+
+ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
     color: black;
     font-size: 3em;
     font-style: italic;
 }
 
-li{
+li {
     margin: 0 2em;
+    font-size: 10px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+
+}
+
+img{
+    height: 20vh;
+    width: 8vw;
+}
+
+
+.tittle {
+    text-align: center;
+    font-size: 3em;
 }

@@ -2,14 +2,14 @@ import CarList from "../../components/carList/CarList";
 import Header from "../../components/header/Header";
 import "./Cars.css"
 
-function Cars(){
+function CarsV6(){
 return(
 <>
 <Header />
-<h1>Aqui van los cochecitos jejejeje</h1>
+<h1>Catálogo de vehículos con motor V6</h1>
 <CarList/>
 </>
 
 );
 }
-export default Cars;
+export default CarsV6;
