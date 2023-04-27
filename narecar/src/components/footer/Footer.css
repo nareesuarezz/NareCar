@@ -1,0 +1,40 @@
+
+.footer{
+    color:#000000;
+    background-color: #fad7bd;
+    text-align: center;
+    padding-bottom: 2em;
+  }
+  
+
+  .copy-right{
+    font-size:.75rem;
+    opacity:.8;
+  }
+
+  .container {
+    margin-top: 1em;
+  }
+  .Social {
+    font-size: .9rem;
+  }
+
+
+@media (min-width: 768px) {
+    .container {
+      margin-top: 2em;
+    }
+    .Social {
+      font-size: 1rem;
+    }
+  }
+  
+
+  @media (min-width: 992px) {
+    .container {
+      margin-top: 3em;
+    }
+    .Social {
+      font-size: 1.2rem;
+    }
+  }

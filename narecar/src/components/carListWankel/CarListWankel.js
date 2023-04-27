@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import CarService from "../../services/car.services";
-import "./CarList.css"
+import CarService from "../../services/car.servicesWankel";
+import "./CarListWankel.css"
 
-function CarList() {
+function CarListWankel() {
   const [cars, setCars] = useState([]);
   const [query, setQuery] = useState("");
 
@@ -40,10 +40,14 @@ function CarList() {
 
   return (
     <>
-      <input type="search" onChange={handleChange} />
+     <div className="search">
+        <h2>¿Qué buscas?</h2>
+        <input type="search" onChange={handleChange} />
+      </div>
       <div className="middle-text">
-        <p className="text">"V6 es una configuración de motor de combustión interna en la que 6 cilindros están dispuestos en dos bancadas de 3 cilindros unidas por la parte de abajo, formando una "V". Estos motores pueden ser tanto de ciclo Otto, como de ciclo Diésel.
-          En el pasado, los motores de 6 cilindros en línea eran predominantes, ya que no había necesidad de producir motores compactos, una vez que los automóviles eran producidos con tracción trasera. Los factores que más contribuyen para tornar los motores V6 más adecuados que los motores de 6 cilindros en línea son: la generalización del uso de la tracción delantera, y la tendencia actual de estética, en la que predomina el frente en forma de cuña, lo que demanda motores compactos montados generalmente en posición transversal."</p>
+        <p className="text">"El motor Wankel (también conocido como motor rotativo) es un tipo de motor de combustión interna, ideado por Félix Wankel, y convertido en algo práctico por Walter Froede, de NSU; que utiliza rotores en vez de los pistones de los motores alternativos.
+
+          Wankel concibió su motor rotativo en 1924 y obtuvo la patente en 1926 (CA360492; FR1133762; FR1166192; FR888513). Durante los años 1940 se dedicó a mejorar el diseño, y también ideó un motor para torpedo con válvulas rotativas en cabeza, Jumo KM 8. En los años 1950 y los 1960 se hicieron grandes esfuerzos en desarrollar los motores rotativos Wankel. Eran especialmente interesantes por funcionar de forma suave y silenciosa, y con escasas averías, gracias a la simplicidad de su diseño."</p>
       </div>
       {/* <input type="search" onChange={handleChange} /> */}
       <div className="main-container">
@@ -56,4 +60,4 @@ function CarList() {
   );
 }
 
-export default CarList;
+export default CarListWankel;

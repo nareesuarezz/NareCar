@@ -1,4 +1,6 @@
+import Footer from '../../components/footer/Footer';
 import Header from '../../components/header/Header';
+
 import './Home.css';
 function Home() {
     return (
@@ -24,10 +26,12 @@ function Home() {
             <br></br>
             <div className='brandWeWork'>
                 <h1>¿Con qué marcas trabajamos?</h1>
+                <img src={'/assets/img/brands.jpg'}></img>
                 <p>Tenemos un gran abanico de posibilidades y marcas con las que trabajamos, desde marcas de clase media como Mazda, hasta lo mas exclusivo de Audi.</p>
                 <br></br>
                 <br></br>
             </div>
+            <Footer/>
         </>
     );
 }
