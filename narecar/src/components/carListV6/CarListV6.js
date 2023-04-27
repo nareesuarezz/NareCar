@@ -23,6 +23,7 @@ function CarListV6() {
                 <img src={`/assets/img/${c.img}`} alt="car" />
               </div>
               <p>{c.brand} - {c.model} - {c.price}</p>
+            
             </div>
           );
         })
