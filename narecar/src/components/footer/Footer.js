@@ -14,6 +14,7 @@ function Footer() {
 
                         <p className="copy-right"> Copyright © 2004-2023 NareCar. Todos los derechos reservados.</p>
                     </div>
+                    <a href="/rss/rss.xml" className="Social ms-3"><i className="fa fa-rss"></i></a>
 
                     <div className="col-md-3">
                         <h5 className="pb-3">Redes sociales: </h5>

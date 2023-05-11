@@ -1,0 +1,28 @@
+
+<rss version="2.0">
+  <channel>
+    <title>Noticias de Coches</title>
+    <link>https://ejemplo.com/noticias-coches</link>
+    <description>Últimas noticias sobre coches</description>
+    <language>es-es</language>
+    <lastBuildDate>Tue, 11 May 2023 12:00:00 GMT</lastBuildDate>
+    <item>
+      <title>Presentado el nuevo modelo eléctrico de Tesla</title>
+      <link>https://ejemplo.com/noticia-tesla</link>
+      <description>El fabricante estadounidense de automóviles Tesla presentó hoy su último modelo eléctrico con una autonomía de 600 km.</description>
+      <pubDate>Tue, 11 May 2023 10:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>BMW lanza un nuevo modelo deportivo</title>
+      <link>https://ejemplo.com/noticia-bmw</link>
+      <description>BMW ha anunciado el lanzamiento de un nuevo modelo deportivo con un motor V8 y una velocidad máxima de 300 km/h.</description>
+      <pubDate>Mon, 10 May 2023 14:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Volkswagen anuncia un nuevo SUV híbrido</title>
+      <link>https://ejemplo.com/noticia-vw</link>
+      <description>Volkswagen presentó su nuevo SUV híbrido que combina un motor eléctrico con un motor de gasolina para ofrecer una mayor eficiencia de combustible.</description>
+      <pubDate>Mon, 10 May 2023 12:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
