@@ -1,27 +1,32 @@
-.whoWeAre{
+body {
+    background-color: cornsilk;
+}
+
+.whoWeAre {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(206, 205, 205);
+    background-color: rgb(247, 202, 89);
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 30px;
 }
 
-h1{
+
+h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.brandWeWork{
+.brandWeWork {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-color: rgb(206, 205, 205);
+    background-color: rgb(247, 202, 89);
     margin-left: 5vw;
     margin-right: 5vw;
     font-size: 30px;
 }
 
-.brandWeWork > img{
+.brandWeWork>img {
     width: 75vw;
     height: 60vw;
     overflow: hidden;
@@ -39,30 +44,32 @@ h1{
 
 /* Tablet */
 @media (min-width: 768px) {
-  .whoWeAre,
-  .brandWeWork {
-      margin-left: 10vw;
-      margin-right: 10vw;
-      font-size: 20px;
-  }
 
-  .brandWeWork > img {
-      width: 35vw;
-      height: 30vw;
-  }
+    .whoWeAre,
+    .brandWeWork {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        font-size: 20px;
+    }
+
+    .brandWeWork>img {
+        width: 35vw;
+        height: 30vw;
+    }
 }
 
 /* Desktop */
 @media (min-width: 1024px) {
-  .whoWeAre,
-  .brandWeWork {
-      margin-left: 30vh;
-      margin-right: 30vh;
-      font-size: 30px;
-  }
 
-  .brandWeWork > img {
-      width: 20vw;
-      height: 15vw;
-  }
+    .whoWeAre,
+    .brandWeWork {
+        margin-left: 30vh;
+        margin-right: 30vh;
+        font-size: 30px;
+    }
+
+    .brandWeWork>img {
+        width: 20vw;
+        height: 15vw;
+    }
 }
