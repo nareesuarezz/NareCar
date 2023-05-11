@@ -51,6 +51,7 @@ It is a project to which I have dedicated hours and affection, since it is somet
 
 Here you can see the design that I did by myself to let you see what was my inspiration to do the app on this way https://www.figma.com/file/O8xmN3BOQ8PIOf56BafE9t/Cochify?node-id=0%3A1&t=fUR4ubIJ6CylzSAN-1
 
+<<<<<<< HEAD
 You will notice that the last page is a modal function that I didn't realease yet, but in future taks I'll focus on finish this function.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -69,6 +70,25 @@ In this section I'm listing the framewroks or libraries that I used for this pro
 
 
 
+=======
+You will notice that the last page is a modal function that I didn't realease yet, but in future tasks I'll focus on finish this function.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+TEMPLATE: https://github.com/nareesuarezz/Best-README-Template/blob/master/BLANK_README.md
+
+### Built With
+
+In this section I'm listing the framewroks or libraries that I used for this project:
+
+* [![React][React.js]][React-url]
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+
+>>>>>>> master
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge

@@ -37,6 +37,66 @@
 }
 
 
+#open-modal {
+    display: none;
+}
+
+#open-modal+label {
+    background: steelblue;
+    display: table;
+    margin: auto;
+    color: #fff;
+    line-height: 3;
+    padding: 0 1em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+#open-modal+label:hover {
+    background: #38678f;
+}
+
+#open-modal:checked~#modal {
+    top: 0;
+}
+
+
+#close-modal {
+    display: none;
+}
+
+#close-modal+label {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 100;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    background: tomato;
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+#close-modal:checked~#modal {
+    top: -100vh;
+}
+
+#close-modal + label {
+    display: none;
+  }
+  #close-modal:checked ~ #close-modal + label {
+    display: block;
+  }
+  #close-modal:checked + label {
+    display: none;
+  }
+  
+
 @media (min-width: 768px) {
     .car-list-img {
         width: 35vw;
@@ -57,7 +117,7 @@
         width: 25vw;
         height: 20vw;
     }
-      
+
 
 
     .middle-text {
