@@ -12,6 +12,8 @@ function Header() {
                 <li><a href="/carsWankel">Coches con motor Wankel</a></li>
                 <li><a href="/cars4L">Coches con motor 4L</a></li>
                 <li><a href="/renting">Renting</a></li>
+                <li><a href="/news">Noticias</a></li>
+
             </ul>
         </div>
     )
