@@ -2,27 +2,27 @@
 <rss version="2.0">
   <channel>
     <title>Noticias de Coches</title>
-    <link>https://narecar-2834a.web.app/</link>
+    <link>https://narecar-2834a.web.app/news</link>
     <description>Últimas noticias sobre coches</description>
     <language>es-es</language>
-    <lastBuildDate>Tue, 11 May 2023 12:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 16 May 2023 12:00:00 GMT</lastBuildDate>
     <item>
       <title>Presentado el nuevo modelo eléctrico de Tesla</title>
-      <link>https://ejemplo.com/noticia-tesla</link>
+      <link>https://narecar-2834a.web.app/presentado-el-nuevo-modelo-electrico-de-tesla</link>
       <description>El fabricante estadounidense de automóviles Tesla presentó hoy su último modelo eléctrico con una autonomía de 600 km.</description>
-      <pubDate>Tue, 11 May 2023 10:00:00 GMT</pubDate>
+      <pubDate>Tue, 16 May 2023 10:00:00 GMT</pubDate>
     </item>
     <item>
       <title>BMW lanza un nuevo modelo deportivo</title>
-      <link>https://ejemplo.com/noticia-bmw</link>
+      <link>https://narecar-2834a.web.app/bmw-lanza-un-nuevo-modelo-deportivo</link>
       <description>BMW ha anunciado el lanzamiento de un nuevo modelo deportivo con un motor V8 y una velocidad máxima de 300 km/h.</description>
-      <pubDate>Mon, 10 May 2023 14:00:00 GMT</pubDate>
+      <pubDate>Tue, 16 May 2023 14:00:00 GMT</pubDate>
     </item>
     <item>
       <title>Volkswagen anuncia un nuevo SUV híbrido</title>
-      <link>https://ejemplo.com/noticia-vw</link>
+      <link>https://narecar-2834a.web.app/volkswagen-anuncia-un-nuevo-suv-hibrido</link>
       <description>Volkswagen presentó su nuevo SUV híbrido que combina un motor eléctrico con un motor de gasolina para ofrecer una mayor eficiencia de combustible.</description>
-      <pubDate>Mon, 10 May 2023 12:00:00 GMT</pubDate>
+      <pubDate>Tue, 16 May 2023 12:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

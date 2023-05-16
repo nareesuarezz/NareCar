@@ -6,6 +6,9 @@ import CarsWankel from './Pages/cars/CarsWankel';
 import Cars4L from './Pages/cars/Cars4L';
 import Database from './Pages/firebase/Database';
 import News from './Pages/news/news';
+import BMW from './Pages/news/bmw';
+import Volkswagen from './Pages/news/volkswagen';
+import Tesla from './Pages/news/tesla';
 function App() {
   return (
     <>
@@ -18,6 +21,9 @@ function App() {
           <Route path="/cars4L" element={<Cars4L/>}/>
           <Route path="/renting" element={<Database/>}/>
           <Route path="/news" element={<News/>}/>
+          <Route path="/bmw-lanza-un-nuevo-modelo-deportivo" element={<BMW/>}/>
+          <Route path="/volkswagen-anuncia-un-nuevo-suv-hibrido" element={<Volkswagen/>}/>
+          <Route path="/presentado-el-nuevo-modelo-electrico-de-tesla" element={<Tesla/>}/>
         </Routes>
       </BrowserRouter>
     </>

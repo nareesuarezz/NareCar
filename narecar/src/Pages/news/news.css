@@ -1,62 +1,87 @@
-/* Estilos base */
 .news {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 20px;
-    text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.news h1 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.news img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.news p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (min-width: 480px) {
+  .news {
+    padding: 40px;
   }
-  
+
   .news h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+    font-size: 30px;
   }
-  
+
   .news img {
-    max-width: 100%;
-    height: auto;
-    margin: 0 auto;
-    display: block;
-    margin-bottom: 10px;
+    max-width: 600px;
   }
-  
+
   .news p {
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
+    font-size: 18px;
+  }
+}
+
+
+
+@media only screen and (min-width: 768px) {
+  .news {
+    max-width: 800px;
+    padding: 60px;
   }
 
-  
-  
+  .news h1 {
+    font-size: 36px;
+  }
 
-  @media only screen and (min-width: 480px) {
-    .news {
-      padding: 40px;
-    }
-  
-    .news h1 {
-      font-size: 30px;
-    }
-  
-    .news img {
-      max-width: 600px;
-    }
-  
-    .news p {
-      font-size: 18px;
-    }
+  .news img {
+    max-width: 600px;
   }
-  
 
-  @media only screen and (min-width: 768px) {
-    .news {
-      max-width: 800px;
-    }
+  .news p {
+    font-size: 20px;
   }
-  
-  @media only screen and (min-width: 1024px) {
-    .news {
-      max-width: 1000px;
-    }
+}
+
+
+
+@media only screen and (min-width: 1024px) {
+  .news {
+    max-width: 1000px;
+    padding: 80px;
   }
-  
+
+  .news h1 {
+    font-size: 42px;
+  }
+
+  .news img {
+    max-width: 800px;
+  }
+
+  .news p {
+    font-size: 24px;
+  }
+}
