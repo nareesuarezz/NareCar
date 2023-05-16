@@ -12,7 +12,7 @@ function Footer() {
                     <div className="col-md-4 ">
                         <h4 className="pb-3">NareCar</h4>
 
-                        <p className="copy-right"> Copyright © 2004-2023 NareCar. Todos los derechos reservados.</p>
+                        <p className="copy-right"> <a href='/policies'>Copyright © 2004-2023 NareCar. Todos los derechos reservados.</a></p>
                     </div>
                     <a href="/rss/rss.xml" className="Social ms-3"><i className="fa fa-rss"></i></a>
 

@@ -9,6 +9,7 @@ import News from './Pages/news/news';
 import BMW from './Pages/news/bmw';
 import Volkswagen from './Pages/news/volkswagen';
 import Tesla from './Pages/news/tesla';
+import Policies from './Pages/policies/policies';
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
           <Route path="/bmw-lanza-un-nuevo-modelo-deportivo" element={<BMW/>}/>
           <Route path="/volkswagen-anuncia-un-nuevo-suv-hibrido" element={<Volkswagen/>}/>
           <Route path="/presentado-el-nuevo-modelo-electrico-de-tesla" element={<Tesla/>}/>
+          <Route path="/policies" element={<Policies/>}/>
         </Routes>
       </BrowserRouter>
     </>
