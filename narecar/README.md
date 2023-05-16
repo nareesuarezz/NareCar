@@ -56,6 +56,12 @@ You will notice that the last page is a modal function that I didn't realease ye
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+Here you have my link to the firebase hosting page, where I have my entire project uploaded to the Internet:
+https://narecar-2834a.web.app/
+
+And also, here you have some screenshots of the prove that the rss feed is working correctly and it redirects me to the new that I want to:
+![image](https://github.com/nareesuarezz/NareCar/assets/131177598/ca45c49d-ec49-45d7-9d3b-434d75b41851)
+![image](https://github.com/nareesuarezz/NareCar/assets/131177598/7bb0be22-ff61-45e0-8828-cc18bb9c01b5)
 
 
 ### Built With
@@ -63,7 +69,6 @@ You will notice that the last page is a modal function that I didn't realease ye
 In this section I'm listing the framewroks or libraries that I used for this project:
 
 * [![React][React.js]][React-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
